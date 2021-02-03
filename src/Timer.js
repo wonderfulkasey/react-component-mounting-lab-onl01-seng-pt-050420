@@ -14,6 +14,7 @@ componentDidMount() {
   componentWillUnmount() {
     clearInterval(this.interval);
   }
+  
   render() {
     const { time, color } = this.state;
     return (
